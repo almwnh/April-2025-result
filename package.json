@@ -1,5 +1,5 @@
 {
-  "name": "delta-natega",
+  "name": "cls",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -24,5 +24,13 @@
   "description": "\"# delta-july-graduation\"",
   "main": "postcss.config.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/almwnh/oct-2024.git"
+  },
+  "bugs": {
+    "url": "https://github.com/almwnh/oct-2024/issues"
+  },
+  "homepage": "https://github.com/almwnh/oct-2024#readme"
 }
