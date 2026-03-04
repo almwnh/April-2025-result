@@ -66,31 +66,31 @@ export const AllDegrees = ({ student }) => {
                   {student.theory}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
                 <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
                   {student.practical}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>90</span>
+                  <span className='text-blue-600 font-bold'>90</span>
                 </td>
                 <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
                   {student.E}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>30</span>
+                  <span className='text-blue-600 font-bold'>30</span>
                 </td>
                 <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
                   {student.surgical}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
                 <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
                   {student.anatomy}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
               </tr>
             </tbody>
@@ -118,30 +118,35 @@ export const AllDegrees = ({ student }) => {
             </thead>
             <tbody>
               <tr>
-                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>{student.first_aids}
+                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
+                  {student.first_aids}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>30</span>
+                  <span className='text-blue-600 font-bold'>30</span>
                 </td>
-                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>{student.infection_control}
+                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
+                  {student.infection_control}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>30</span>
+                  <span className='text-blue-600 font-bold'>30</span>
                 </td>
-                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>{student.women}
+                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
+                  {student.women}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
-                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>{student.pharma}
+                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
+                  {student.pharma}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
-                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>{student.medical}
+                <td className={`p-2 border border-gray-300 ${isFailed ? "text-red-600 font-bold" : ""}`}>
+                  {student.medical}
                   <br />
                   <hr className='' />
-                  <span className='text-red-600 font-bold'>50</span>
+                  <span className='text-blue-600 font-bold'>50</span>
                 </td>
               </tr>
             </tbody>
