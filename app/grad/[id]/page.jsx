@@ -20,7 +20,7 @@ export default function Page({ params }) {
 
   useEffect(() => {
     setLoading(true)
-    fetch('/dessoq-data.json')
+    fetch('/April_2025-data.json')
       .then((res) => res.json())
       .then((students) => {
         setStudentsData(students)
